@@ -8,7 +8,7 @@ public class Hourglass {
                     System.out.print('8');
                 }
                 else{
-                    if(j == i || j == height-i-1){
+                    if(j >= i || j <= height-i-1){
                         System.out.print('8');
                     }
 
